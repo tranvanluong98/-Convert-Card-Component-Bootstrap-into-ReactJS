@@ -14,8 +14,7 @@ import Card3 from './components/Card3';
 
 ReactDOM.render(
     <div>
-    {/* <Xuly />
-    <App1 /> */}
+    
     <Header />
     <Card1 />
     <Card2 />
