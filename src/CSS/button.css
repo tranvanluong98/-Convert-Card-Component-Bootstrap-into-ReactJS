@@ -1,0 +1,12 @@
+.buttonAll{
+    padding:  0.75rem 1.05rem;
+    background-color:#007bff ;
+     color: "#ffffff";
+     border-color: "#007bff";
+    transition: all 0.15s ease-in-out .1s;
+}
+.buttonAll:hover{
+background-color: #005BFF;
+cursor: pointer;
+
+}

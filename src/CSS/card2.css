@@ -1,3 +1,13 @@
 .card2{
-    background: darkorange;
+    background: #FFFFFF;
+    padding: 1.25rem;
+}
+#listCard li {
+    list-style-type: none;
+}
+.list-cards{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 0px solid rgba(0,0,0,.125);
 }

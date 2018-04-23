@@ -4,12 +4,11 @@ import {
 
 const Card2 = (props) => {
   return (
-    <div style={{ width: "318px" , margin:"auto"}}>
-      <h3 style={{textAlign:"center"}}> Content Type</h3>
+    <div style={{ width: "318px" , margin:"auto" , padding: "1.25rem"}}>
+      <h3 style={{textAlign: "center"}}> Content Type</h3>
       <Card  >
 
         <CardBody>
-
           <CardText className="card2" >This is some text within a card body.</CardText>
 
         </CardBody>
