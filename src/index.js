@@ -5,6 +5,9 @@ import './CSS/Header.css';
 import './CSS/card2.css';
 import'./CSS/card7.css';
 import './CSS/button.css';
+import './CSS/navigation.css';
+import './CSS/card12.css';
+import'./CSS/Footer.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
@@ -21,26 +24,13 @@ import Card7 from './components/Card7';
 import Card8 from './components/Card8';
 import Card9 from './components/Card9';
 import Card10 from './components/Card10';
+import Card11 from './components/Card11';
 import {Nav , NavItem} from 'react-bootstrap';
-function handleSelect(selectedKey) {
-    alert(`selected ${selectedKey}`);
-  }
-  
-  const navInstance = (
-    <Nav bsStyle="pills" activeKey={1} onSelect={handleSelect}>
-      <NavItem eventKey={1} href="/home">
-        NavItem 1 content
-      </NavItem>
-      <NavItem eventKey={2} title="Item">
-        NavItem 2 content
-      </NavItem>
-      <NavItem eventKey={3} disabled>
-        NavItem 3 content
-      </NavItem>
-    </Nav>
-  );
-  render(navInstance);
-  
+import Card12 from './components/Card12';
+import Card13 from './components/Card13';
+import Card14 from './components/Card14';
+import Footer from './components/Footer';
+
 ReactDOM.render(
     <div>
     
@@ -54,7 +44,12 @@ ReactDOM.render(
     <Card7 />
     <Card8 />
     <Card9 />
-    <Card10 />  
+    <Card10 /> 
+    <Card11 /> 
+    <Card12 />
+    <Card13 />
+    <Card14 />
+    <Footer />
     </div>
     , document.getElementById('root'));
 registerServiceWorker();
