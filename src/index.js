@@ -31,16 +31,21 @@ import Card13 from './components/Card13';
 import Card14 from './components/Card14';
 import Footer from './components/Footer';
 
+const header = "Welcome Luong";
+const cardTitle = "Card Title";
+const cardSubtile ="Card subtitle";
+const cardText ="Something in here"
 ReactDOM.render(
+    
     <div>
     
-    <Header />
-    <Card1 />
+    <Header name="LuongBEAT" header={header} />
+    <Card1 cardTitle={"Viết tiêu đề vào đây"}/>
     <Card2 />
-    <Card3 />
+    <Card3 cardTitle={"Viết tiêu đề vào đây"}/>
     <Card4 />
     <Card5 />
-    <Card6 />
+    <Card6 cardTitle={"Viết tiêu đề vào đây"}/>
     <Card7 />
     <Card8 />
     <Card9 />
